@@ -1,4 +1,4 @@
 # Rumianek – demo
 
-Zbudowana wersja demonstracyjna aplikacji mobilnej (PWA) dla Melisa.pl.
+Ogólne demo aplikacji mobilnej (PWA) dla apteki internetowej.
 Otwórz: https://jakub-nowakowski.github.io/rumianek-demo/
