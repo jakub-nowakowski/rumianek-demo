@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-170 -170 340 340" role="img" aria-label="Rumek">
+  <defs>
+    <path id="p" d="M-13,-52 C-22,-92 -25,-124 -24,-138 A24 24 0 0 1 24,-138 C25,-124 22,-92 13,-52 Z" fill="#fff" stroke="#C9D3EE" stroke-width="3"/>
+    <radialGradient id="c" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#FFE07A"/><stop offset=".6" stop-color="#F7C040"/><stop offset="1" stop-color="#E8A328"/></radialGradient>
+  </defs>
+  <circle r="166" fill="#EEF2FB"/>
+  <g transform="rotate(15)">
+    <use xlink:href="#p"/><use xlink:href="#p" transform="rotate(30)"/><use xlink:href="#p" transform="rotate(60)"/><use xlink:href="#p" transform="rotate(90)"/>
+    <use xlink:href="#p" transform="rotate(120)"/><use xlink:href="#p" transform="rotate(150)"/><use xlink:href="#p" transform="rotate(180)"/><use xlink:href="#p" transform="rotate(210)"/>
+    <use xlink:href="#p" transform="rotate(240)"/><use xlink:href="#p" transform="rotate(270)"/><use xlink:href="#p" transform="rotate(300)"/><use xlink:href="#p" transform="rotate(330)"/>
+  </g>
+  <circle r="70" fill="url(#c)" stroke="#D9951C" stroke-width="3"/>
+  <!-- oczy i brwi -->
+  <g fill="#1B2A5C"><ellipse cx="-24" cy="-6" rx="8.5" ry="10"/><ellipse cx="24" cy="-6" rx="8.5" ry="10"/></g>
+  <g fill="#fff"><circle cx="-21" cy="-10" r="3.2"/><circle cx="27" cy="-10" r="3.2"/></g>
+  <g fill="none" stroke="#1B2A5C" stroke-linecap="round">
+    <path d="M-37,-27 Q-25,-35 -12,-28 M12,-28 Q25,-35 37,-27" stroke-width="5.5"/>
+    <path d="M-24,20 Q0,44 26,18" stroke-width="5"/>
+  </g>
+  <!-- muszka -->
+  <g transform="translate(0,62)">
+    <path d="M0,0 L-26,-13 L-26,13 Z M0,0 L26,-13 L26,13 Z" fill="#2947A3" stroke="#1B2A5C" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle r="7" fill="#3B5BC4" stroke="#1B2A5C" stroke-width="2.5"/>
+  </g>
+</svg>
